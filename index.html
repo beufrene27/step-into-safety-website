@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1 class="site-title">Step Into Safety</h1>
+            <nav class="site-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h2>Affordable Walk‑In Tub Conversions</h2>
+            <p>Transform your existing bathtub into a safe, accessible walk‑in tub for a fraction of the cost of a full renovation.</p>
+            <a href="#contact" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Step Into Safety helps homeowners and caregivers convert existing bathtubs into accessible walk‑in tubs.
+                Our mission is to provide a cost‑effective alternative to full bathroom remodels by cutting and fitting a
+                waterproof insert into your tub. We pride ourselves on quality workmanship, fast installations, and
+                compassionate service that empowers seniors and anyone with mobility challenges to bathe safely.
+            </p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>Our Process</h2>
+            <p style="text-align: center; margin-bottom: 2rem; max-width: 800px; margin-left:auto; margin-right:auto;">
+                We specialize in converting your existing bathtub into a safe, accessible walk‑in tub. From the initial cut to the final seal,
+                our trained technicians handle every step with precision and care. Here’s how it works:
+            </p>
+            <div class="project-grid">
+                <!-- Step 1 -->
+                <div class="project-card">
+                    <img src="images/saw-cut.jpg" alt="Cutting the tub" class="project-image" />
+                    <h3>Cutting the Tub</h3>
+                    <p>We carefully remove a portion of your existing tub to create a low‑entry threshold.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="project-card">
+                    <img src="images/caulking.jpg" alt="Installing insert" class="project-image" />
+                    <h3>Installing the Insert</h3>
+                    <p>A waterproof insert is fitted and sealed, ensuring a secure and watertight step‑in opening.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="project-card">
+                    <img src="images/consultation.jpg" alt="Customer consultation" class="project-image" />
+                    <h3>Customer Consultation</h3>
+                    <p>Our team walks you through all available options, including an optional watertight door.</p>
+                </div>
+                <!-- Step 4 -->
+                <div class="project-card">
+                    <img src="images/woman-exit.jpg" alt="Finished walk-in tub" class="project-image" />
+                    <h3>Enjoy Your Walk‑In Tub</h3>
+                    <p>Once complete, enjoy safe and comfortable access to your tub—no costly renovation required!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p style="text-align:center; max-width: 700px; margin: 0 auto 1.5rem;">
+                Ready to make your bathroom safer and more accessible? Tell us about your existing tub and what you’re
+                looking for, and we’ll get back to you with a free consultation.
+            </p>
+            <form action="#" method="post" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">Project Description</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Tell us what you would like done" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> My Awesome Site. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
