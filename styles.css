@@ -91,6 +91,16 @@ body {
   max-width: 600px;
 }
 
+/* Badge that indicates the product is made in the USA */
+.usa-badge {
+  width: 140px;
+  height: auto;
+  margin-top: 1rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .btn {
   background: #0066cc;
   color: #fff;
